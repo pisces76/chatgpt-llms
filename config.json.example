@@ -1,0 +1,44 @@
+{
+    "site_config": {
+        "host" : "0.0.0.0",
+        "port" : 8080,
+        "debug": false
+    },
+    "openai_key": "",
+    "openai_api_base": "https://api.openai.com/",
+    "proxy": {
+        "enable": false,
+        "http": "127.0.0.1:10809",
+        "https": "127.0.0.1:10809"
+    },
+    "models": [
+        {
+          "llm_name": "deepseek",
+          "api_key": "sk-",
+          "api_base": "https://api.deepseek.com",
+          "model": "deepseek-chat",
+          "developer": "DEEPSEEK"
+        },
+        {
+          "llm_name": "llama3-70B",
+          "api_key": "",
+          "api_base": "https://api.groq.com/openai/",
+          "model": "llama3-70b-8192",
+          "developer": "META"          
+        },        
+        {
+          "llm_name": "baichuan",
+          "api_key": "sk-",
+          "api_base": "https://api.baichuan-ai.com",
+          "model": "Baichuan2-Turbo",
+          "developer": "BAICHUAN"          
+        },
+        {
+          "llm_name": "openai",
+          "api_key": "sk-",
+          "api_base": "https://api.openai.com/",
+          "model": "gpt-3.5-turbo",
+          "developer": "OPENAI"          
+        }        
+    ]    
+}
