@@ -5,7 +5,7 @@
 
 A simple web chat application supporting popular LLM API interfaces.
 
-Based on [xtekky's chatgpt-clone](https://github.com/xtekky/chatgpt-clone) project, this project aims to provide a unified web platform for easily switching between different LLM models, such as LLaMa-3, DeepSeek, Baichuan etc. You can easily add more LLM API models by modifying config.json.
+Based on @xtekky's [chatgpt-clone](https://github.com/xtekky/chatgpt-clone) project, this project aims to provide a unified web platform for easily switching between different LLM models, such as LLaMa-3, DeepSeek, Baichuan etc. You can easily add more LLM API models by modifying config.json.
 
 <img width="1470" src="./llm-demo.png" alt="Preview"/>
 
@@ -48,14 +48,15 @@ pip install -r requirements.txt
 python run.py
 ```
 
-- For production, use the start.sh script with gunicorn:
+- For production, running start.sh script to startup gunicorn:
 ```
 ./start.sh &
 ```
 
+- Now you can visit http://ip:8080 for a chat. 
 
 ## Donations
-If you find this project useful and would like to support it, please consider making a donation. Your support will help to ensure the continuity and development of the project.
+This is my first Github code project. If you find this project useful and would like to support it, please consider making a donation. Your support will help to ensure the continuity and development of the project.
 
 ### WeChat Pay
 <img width="180" src="https://raw.githubusercontent.com/pisces76/pisces76/master/wechat-QR.jpg">
@@ -63,3 +64,5 @@ If you find this project useful and would like to support it, please consider ma
 ### Alipay
 <img width="180" src="https://raw.githubusercontent.com/pisces76/pisces76/master/alipay-QR.jpg">
 
+### Paypal
+[![PayPal badge](https://img.shields.io/badge/PayPal_Link-003087)](https://paypal.me/miaomiao38?country.x=C2&locale.x=en_US) 
