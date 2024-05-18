@@ -7,6 +7,7 @@ from requests import get
 from requests import post 
 from json     import loads
 import os
+import traceback
 
 class Backend_Api:
     def __init__(self, app, config: dict) -> None:
@@ -81,6 +82,9 @@ class Backend_Api:
                         if len(chunk) == 0: #avoid empty lines
                             continue
 
+                        if chunk.decode("utf-8") == 'data: [DONE]': #last line
+                            break
+
                         decoded_line = loads(chunk.decode("utf-8").split("data: ")[1])
                         token = decoded_line["choices"][0]['delta'].get('content')
                         if token is not None and token: 
@@ -92,6 +96,7 @@ class Backend_Api:
                     except Exception as e:
                         print(e)
                         print(e.__traceback__.tb_next)
+                        traceback.print_exc()
                         continue
                         
             return self.app.response_class(stream(), mimetype='text/event-stream')
