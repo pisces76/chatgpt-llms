@@ -1,8 +1,12 @@
 # chatgpt-llms
 
+[![English badge](https://img.shields.io/badge/%E8%8B%B1%E6%96%87-English-blue)](./README.md)
+[![简体中文 badge](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-Simplified%20Chinese-blue)](./README_CN.md)
+
 A simple web chat application supporting popular LLM API interfaces.
 
-Based on xtekky's chatgpt-clone project, this project aims to provide a unified web platform for easily switching between different LLM models, such as LLaMa-3, DeepSeek, Baichuan etc. 
+Based on [xtekky's chatgpt-clone](https://github.com/xtekky/chatgpt-clone) project, this project aims to provide a unified web platform for easily switching between different LLM models, such as LLaMa-3, DeepSeek, Baichuan etc. You can easily add more LLM API models by modifying config.json.
+
 <img width="1470" src="./llm-demo.png" alt="Preview"/>
 
 You can also visit https://miaomiao88.top for a demo.
@@ -43,10 +47,12 @@ pip install -r requirements.txt
 ```
 python run.py
 ```
+
 - For production, use the start.sh script with gunicorn:
 ```
 ./start.sh &
 ```
+
 
 ## Donations
 If you find this project useful and would like to support it, please consider making a donation. Your support will help to ensure the continuity and development of the project.

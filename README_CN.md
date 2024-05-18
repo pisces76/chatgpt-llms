@@ -1,7 +1,11 @@
 # chatgpt-llms
+
+[![English badge](https://img.shields.io/badge/%E8%8B%B1%E6%96%87-English-blue)](./README.md)
+[![简体中文 badge](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-Simplified%20Chinese-blue)](./README_CN.md)
+
 一个简单的web chat GPT应用，支持常用的LLM API接口。
 
-基于xtekky大神的chatgpt-clone项目的二次开发。原项目因为使用openAI的API接口，对免费党不够友好。好在，现在有不少免费或便宜的API接口（比如LlaMa-3，DeepSeek等）。此外，很多人拥有多个大模型的API接口。也需要一个方便统一调用的web平台。所以，就有了这个项目。运行示例如下图，可以从"LLM Model"下拉框中选取不同模型，即可与之对话。
+基于xtekky大神的 [chatgpt-clone](https://github.com/xtekky/chatgpt-clone) 项目的二次开发。原项目因为使用openAI的API接口，对免费党不够友好。好在，现在有不少免费或便宜的API接口（比如LlaMa-3，DeepSeek等）。此外，很多人拥有多个大模型的API接口。也需要一个方便统一调用的web平台。所以，就有了这个项目。运行示例如下图，可以从"LLM Model"下拉框中选取不同模型，即可与之对话。
 
 <img width="1470" src="./llm-demo.png" alt="预览"/>
 
