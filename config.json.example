@@ -14,6 +14,7 @@
     "models": [
         {
           "llm_name": "deepseek",
+          "enable": true,
           "api_key": "sk-",
           "api_base": "https://api.deepseek.com",
           "model": "deepseek-chat",
@@ -21,13 +22,24 @@
         },
         {
           "llm_name": "llama3-70B",
+          "enable": true,
           "api_key": "",
           "api_base": "https://api.groq.com/openai/",
           "model": "llama3-70b-8192",
           "developer": "META"          
-        },        
+        },  
+        {
+          "llm_name": "Mixtral 8x7b",
+          "enable": true,
+          "enable": true,
+          "api_key": "gsk_xxxx",
+          "api_base": "https://api.groq.com/openai/",
+          "model": "mixtral-8x7b-32768",
+          "developer": "Mistral"          
+        },                
         {
           "llm_name": "baichuan",
+          "enable": true,
           "api_key": "sk-",
           "api_base": "https://api.baichuan-ai.com",
           "model": "Baichuan2-Turbo",
@@ -35,6 +47,7 @@
         },
         {
           "llm_name": "openai",
+          "enable": false,
           "api_key": "sk-",
           "api_base": "https://api.openai.com/",
           "model": "gpt-3.5-turbo",

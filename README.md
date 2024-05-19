@@ -5,7 +5,7 @@
 
 A simple web chat application supporting popular LLM API interfaces.
 
-Based on @xtekky's [chatgpt-clone](https://github.com/xtekky/chatgpt-clone) project, this project aims to provide a unified web platform for easily switching between different LLM models, such as LLaMa-3, DeepSeek, Baichuan etc. You can easily add more LLM API models by modifying config.json.
+Based on @xtekky's [chatgpt-clone](https://github.com/xtekky/chatgpt-clone) project, this project aims to provide a unified web platform for easily switching between different LLM models, such as LLaMa-3, DeepSeek, ChatGPT, Mixtral, Gemma etc. You can easily add more LLM API models by modifying config.json.
 
 <img width="1470" src="./llm-demo.png" alt="Preview"/>
 
