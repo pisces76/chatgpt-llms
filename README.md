@@ -59,7 +59,7 @@ python run.py
 This is my first Github code project. If you find this project useful and would like to support it, please consider making a donation. Your support will help to ensure the continuity and development of the project.
 
 ### WeChat Pay
-<img width="180" src="https://raw.githubusercontent.com/pisces76/pisces76/master/wechat-QR.jpg">
+<img width="180" src="https://raw.githubusercontent.com/pisces76/pisces76/master/wechat-reward.jpg">
 
 ### Alipay
 <img width="180" src="https://raw.githubusercontent.com/pisces76/pisces76/master/alipay-QR.jpg">
