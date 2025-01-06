@@ -41,7 +41,10 @@ class Backend_Api:
 
             conversation = [{'role': 'system', 'content': system_message}] + \
                             extra + _conversation + [prompt]        
-            url = f"{self.api_base}/v1/chat/completions"
+            if self.developer == 'google':
+                url = f"{self.api_base}/v1beta/chat/completions"
+            else:
+                url = f"{self.api_base}/v1/chat/completions"
 
             proxies = None
             if self.proxy['enable']:
